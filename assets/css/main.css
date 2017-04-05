@@ -52,7 +52,7 @@ nav ul li {
 	line-height: 4rem;
 	vertical-align: middle;
 	margin-left: 20px;
-	font-size: 1.3rem;
+	font-size: 1rem;
 }
 
 nav a {
@@ -65,30 +65,73 @@ nav img {
 	margin-left: -12px;
 }
 
-section#call-to-action {
+section {
 	padding: 0;
 	height: 90vh;
-	display: table;
 	width: 100%;
+	display: table;
+	text-align: center;
 }
 
-section {
-	padding-left: 10%;
-	padding-right: 10%;
+section h1 {
+	padding-top: 2rem;
+	font-size: 2rem;
+}
+
+section p {
+	padding: 2rem 10%
+}
+
+section#call-to-action h1 {
+	font-size: 3rem;
+	font-style: italic;
+}
+
+section#founders ul{
+	list-style: none;
+	text-align: left;
+	margin-right: 10%;
+
+}
+
+.founders p {
+	display: inline;
+	float: left;
+	padding: 0;
+}
+
+.founders img {
+	display: inline-block;
+	float: left;
+	padding-right: 1rem;
+	width: 12rem;
 }
 
 section:nth-child(odd) {
 	background: #1D1B39;
 }
 
-section#call-to-action h1 {
-	font-style: italic;
-	text-align: middle;
-	font-size: 3rem;
+figure img {
+filter: gray;
+-webkit-filter: grayscale(1);
+filter: grayscale(1);
+}
+
+figcaption {
+	font-size: 1.5rem;
+	padding-top: 0;
 }
 
 .centre {
 	display: table-cell;
 	text-align: center;
 	vertical-align: middle;
+}
+
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
 }
