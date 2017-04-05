@@ -6,39 +6,36 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 html, body {
-	background: #1D1B39;
 	color: white;
 	margin: 0;
 	padding: 0;
+	background: rgba(74,70,140,1);
+  background: -moz-linear-gradient(45deg, rgba(74,70,140,1) 0%, rgba(29,27,57,1) 100%);
+  background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(74,70,140,1)), color-stop(100%, rgba(29,27,57,1)));
+  background: -webkit-linear-gradient(45deg, rgba(74,70,140,1) 0%, rgba(29,27,57,1) 100%);
+  background: -o-linear-gradient(45deg, rgba(74,70,140,1) 0%, rgba(29,27,57,1) 100%);
+  background: -ms-linear-gradient(45deg, rgba(74,70,140,1) 0%, rgba(29,27,57,1) 100%);
+  background: linear-gradient(45deg, rgba(74,70,140,1) 0%, rgba(29,27,57,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a468c', endColorstr='#1d1b39', GradientType=1 );
+	background-repeat: repeat;
 }
 
 body {
-	margin-left: 10%;
-	margin-right: 10%;
-	width: 80%;
+	width: 100%;
 }
 
 header {
+	margin-left: 10%;
 	height: 4rem;
+	margin-right: 10%;
 }
 
 header .logo {
 	height: 100%;
 }
 
-/*
-header nav, header h1 {
-	margin-top: 0;
-	margin-bottom: 0;
-}
-*/
-
-header h1, header nav  {
-	display: inline-block;
-}
-
-header h1 img {
-	display: inline-block;
+header img, header nav  {
+	display: inline;
 }
 
 nav {
@@ -46,9 +43,52 @@ nav {
 }
 
 nav ul {
+	padding-left: 0;
 	display: inline-block;
 }
 
 nav ul li {
 	display: inline-block;
+	line-height: 4rem;
+	vertical-align: middle;
+	margin-left: 20px;
+	font-size: 1.3rem;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+}
+
+nav img {
+	/* This can be removed when the padding built in to the SVG is removed */
+	margin-left: -12px;
+}
+
+section#call-to-action {
+	padding: 0;
+	height: 90vh;
+	display: table;
+	width: 100%;
+}
+
+section {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+section:nth-child(odd) {
+	background: #1D1B39;
+}
+
+section#call-to-action h1 {
+	font-style: italic;
+	text-align: middle;
+	font-size: 3rem;
+}
+
+.centre {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
 }
