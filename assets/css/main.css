@@ -70,16 +70,20 @@ section {
 	height: 90vh;
 	width: 100%;
 	display: table;
-	text-align: center;
 }
 
 section h1 {
 	padding-top: 2rem;
 	font-size: 2rem;
+	text-align: center;
 }
 
 section p {
 	padding: 2rem 10%
+}
+
+section#call-to-action {
+	text-align: center;
 }
 
 section#call-to-action h1 {
