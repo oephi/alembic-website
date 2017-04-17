@@ -5,11 +5,17 @@ html, body {
   width: 100%;
   margin: 0;
   height: 100%;
+  box-sizing: border-box;
 }
+
 
 body, h1, h2, h3, h4, h5, h6 {
 	font-family: 'Lato', sans-serif !important;
 	font-size: 18px;
+}
+
+h1 {
+  font-size: 3rem;
 }
 
 header {
@@ -19,6 +25,7 @@ header {
 header nav {
   display: flex;
   flex-direction: row;
+  cursor: pointer;
 }
 
 header a, header a:visited {
@@ -97,3 +104,27 @@ section#call-to-action {
   justify-content: center;
 }
 
+section#expanded-blurb {
+  margin-top: 10%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+section#expanded-blurb .box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section#expanded-blurb .box div {
+  flex: 1 0 50%;
+}
+
+section#expanded-blurb i.fa:before {
+  font-size: 3rem;
+  padding-right: 1rem;
+  vertical-align: middle;
+}
+
+section#expanded-blurb h2 {
+  vertical-align: middle;
+}
