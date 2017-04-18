@@ -14,6 +14,10 @@ body, h1, h2, h3, h4, h5, h6 {
 	font-size: 18px;
 }
 
+p, h1, h2 {
+  color: #1D1B39;
+}
+
 h1 {
   font-size: 3rem;
 }
@@ -115,20 +119,16 @@ section#expanded-blurb .box {
   flex-wrap: wrap;
 }
 
-section#expanded-blurb .box div {
+section#expanded-blurb .box .item {
   flex-grow: 1;
   flex-shrink: 0;
   flex-basis : 40%;
 }
 
-section#expanded-blurb .box div:nth-child(odd) {
+
+section#expanded-blurb .box .item:nth-child(odd) {
   margin-right: 5%;
 }
-
-section#expanded-blurb .box div:nth-child(even) {
-  margin-left: 5%;
-}
-
 
 section#expanded-blurb i.fa:before {
   font-size: 3rem;
@@ -138,5 +138,11 @@ section#expanded-blurb i.fa:before {
 
 section#expanded-blurb h2 {
   vertical-align: middle;
+  padding: 10px;
+  text-shadow: white 0px 1px;
+  border-radius: 10px;
 }
 
+section#expanded-blurb .item h2 {
+  background: #92C4E9;
+}
