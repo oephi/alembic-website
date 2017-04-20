@@ -8,14 +8,9 @@ html, body {
   box-sizing: border-box;
 }
 
-
 body, h1, h2, h3, h4, h5, h6 {
 	font-family: 'Lato', sans-serif !important;
 	font-size: 18px;
-}
-
-p, h1, h2 {
-  color: #1D1B39;
 }
 
 h1 {
@@ -116,41 +111,67 @@ section#call-to-action {
   transform: translate(0, -25%);
 }
 
-section#expanded-blurb {
-  margin-top: 10%;
+section {
   padding-left: 10%;
   padding-right: 10%;
+	padding-bottom: 1rem;
 }
 
-section#expanded-blurb .box {
+section:not(:first-of-type) {
+	padding-top: 1rem;
+}
+
+.box {
   display: flex;
   flex-wrap: wrap;
 }
 
-section#expanded-blurb .box .item {
+section#about {
+	text-shadow: 0px 1px 1px white;
+}
+
+section#about img {
+	filter: drop-shadow( 0px 1px 1px #1D1B39 );
+	transform: scale(0.7);
+	opacity: 0.8;
+}
+
+section#about .box > * {
   flex-grow: 1;
   flex-shrink: 0;
   flex-basis : 40%;
 }
 
+section#what-we-do {
+	background: #92C4E9;
+  color: #1D1B39;
+}
 
-section#expanded-blurb .box .item:nth-child(odd) {
+section#what-we-do .box .item {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis : 40%;
+}
+
+section#what-we-do .box .item:nth-child(odd) {
   margin-right: 5%;
 }
 
-section#expanded-blurb i.fa:before {
+section#what-we-do i.fa:before {
   font-size: 3rem;
   padding-right: 1rem;
   vertical-align: middle;
 }
 
-section#expanded-blurb h2 {
+section#what-we-do h2 {
   vertical-align: middle;
   padding: 10px;
-  text-shadow: white 0px 1px;
   border-radius: 10px;
+  background: #1D1B39;
+	color: white;
 }
 
-section#expanded-blurb .item h2 {
-  background: #92C4E9;
+section#what-we-do h2 i {
+	color: #ef3e24;
 }
+
