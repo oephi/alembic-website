@@ -96,6 +96,10 @@ ul.blurb-carousel li.show {
   }
 }
 
+section, .box {
+	margin-bottom: 2rem;
+}
+
 section#call-to-action {
   height: 90%;
   background-image: url(/assets/images/bg/mountains.jpeg);
@@ -127,7 +131,6 @@ section:not(:first-of-type) {
 }
 
 .box {
-	margin-top: 2rem;
   display: flex;
   flex-wrap: wrap;
 }
@@ -196,14 +199,6 @@ section#what-we-do h2 i {
 section#community .box {
 	flex-direction: row;
 	justify-content: space-between;
-}
-
-section#community .box .item p:first-child {
-	margin-top: 3rem;
-}
-
-section#community .box .item p:last-child {
-	margin-bottom: 3rem;
 }
 
 section#community .box .item {
