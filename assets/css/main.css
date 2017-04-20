@@ -157,6 +157,17 @@ section#what-we-do .box .item:nth-child(odd) {
   margin-right: 5%;
 }
 
+section#what-we-do i.svg:after {
+	content: "";
+  padding-right: 1rem;
+}
+
+section#what-we-do i img {
+	vertical-align: middle;
+	height: 3rem;
+	display: inline;
+}
+
 section#what-we-do i.fa:before {
   font-size: 3rem;
   padding-right: 1rem;
