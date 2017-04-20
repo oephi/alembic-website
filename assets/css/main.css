@@ -24,7 +24,6 @@ header {
 header nav {
   display: flex;
   flex-direction: row;
-  cursor: pointer;
 }
 
 header a, header a:visited {
@@ -107,8 +106,9 @@ section#call-to-action {
   justify-content: center;
 }
 
-.centre {
-  transform: translate(0, -25%);
+.blurb-carousel {
+	position: relative;
+	top: -20%;
 }
 
 section {
