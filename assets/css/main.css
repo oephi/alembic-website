@@ -101,22 +101,22 @@ ul.blurb-carousel li.show {
   }
 }
 
-section#call-to-action {
+section#contact {
 	background: #92C4E9;
 	text-align: center;
 }
 
-section#call-to-action .phone-number {
+section#contact .phone-number {
 	margin-top: 1rem;
 }
 
-section#call-to-action .phone-number a {
+section#contact .phone-number a {
 	color: white;
 	font-weight: bold;
 	text-decoration: none;
 }
 
-section#call-to-action a.button {
+section#contact a.button {
 	display: inline-block;
 	background: #EF3E24;
 	color: white;
