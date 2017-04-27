@@ -17,6 +17,7 @@ h1 {
   font-size: 3rem;
 }
 
+
 header, footer {
   background: #1D1B39;
   line-height: 6em;
@@ -78,7 +79,7 @@ ul.blurb-carousel li {
 }
 
 ul.blurb-carousel li.show {
-  animation-duration: 10s;
+  animation-duration: 6s;
   animation-name: fadeInOut;
   animation-fill-mode: forwards;
 }
@@ -136,6 +137,19 @@ section#carousel {
   background-size: cover;
   background-position: center;
   color: white;
+  text-align: center;
+}
+
+#carousel .logo.alembic {
+  width: 5em;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#carousel .logo.graphql {
+  width: 1em;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .centre {
