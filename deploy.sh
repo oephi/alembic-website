@@ -10,3 +10,10 @@ aws s3 cp . s3://alembic.com.au \
 	--include favicon.ico \
 	--include index.html
 		
+aws s3 cp . s3://www.alembic.com.au \
+	--acl public-read \
+	--recursive \
+	--exclude "*" \
+	--include "assets/**" \
+	--include favicon.ico \
+	--include index.html
