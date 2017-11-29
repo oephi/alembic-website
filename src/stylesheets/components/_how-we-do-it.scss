@@ -1,0 +1,45 @@
+.how-we-do-it {
+  padding-bottom: 160px;
+
+  aside {
+    @include grid-column(10);
+    @include grid-shift(1);
+
+    @include grid-media($laptop-grid) {
+      @include grid-column(12);
+      @include grid-shift(0);
+    }
+  }
+
+  h2 {
+    @include grid-column(12);
+    font-weight: 700;
+    font-size: 42px;
+    margin-left: 0;
+    margin-bottom: 80px;
+
+    @include grid-media($mobile-grid) {
+      font-size: 34px;
+    }
+  }
+
+  img.diagram {
+    @include grid-media($mobile-grid) {
+      display: none;
+    }
+  }
+
+  .mobile-diagram {
+    display: none;
+
+    @include grid-media($mobile-grid) {
+      display: block;
+      text-align: center;
+    }
+
+    img {
+      display: block;
+      margin: 0 auto 50px;
+    }
+  }
+}

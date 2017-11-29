@@ -1,0 +1,11 @@
+.wrap {
+  @include grid-container();
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 0;
+
+  @include grid-media($laptop-grid) {
+    padding: 0 40px;
+  }
+}

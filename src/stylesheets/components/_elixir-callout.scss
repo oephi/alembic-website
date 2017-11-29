@@ -1,0 +1,62 @@
+.elixir-callout {
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 895px;
+  overflow: hidden;
+  padding-top: 110px;
+  position: relative;
+  background: $elixir-purple;
+
+  @include grid-media($mobile-grid) {
+    height: auto;
+    padding: 80px 0;
+  }
+
+  &:after {
+    content: "";
+    transform: rotate(-6.5deg);
+    transform-origin: left center;
+    position: absolute;
+    margin: 0 -40px;
+    bottom: -180px;
+    left: 0;
+    width: 200%;
+    height: 200px;
+    background: #fff;
+
+    @include grid-media($mobile-grid) {
+      display: none;
+    }
+  }
+
+  aside {
+    h2, p {
+      @include grid-column(11);
+      @include grid-shift(1);
+      font-family: $playfair;
+
+      @include grid-media($mobile-grid) {
+        @include grid-column(12);
+        @include grid-shift(0);
+      }
+    }
+
+    h2 {
+      font-size: 34px;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 35px;
+    }
+
+    p {
+      font-size: 24px;
+      font-weight: 100;
+      line-height: 38px;
+      color: #fff;
+      max-width: 400px;
+      padding: 0 0 30px;
+      clear: both;
+    }
+  }
+}
+

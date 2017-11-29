@@ -1,0 +1,52 @@
+.graphql-callout {
+  max-width: 1440px;
+  margin: 0 auto;
+  min-height: 550px;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+
+  @include grid-media($tablet-grid) {
+    padding: 40px 0;
+  }
+
+  @include grid-media($mobile-grid) {
+    min-height: 0;
+    padding: 80px 0;
+  }
+
+  aside {
+    h2, p {
+      @include grid-column(4);
+      @include grid-shift(7);
+      font-family: $playfair;
+
+      @include grid-media($tablet-grid) {
+        @include grid-column(7);
+        @include grid-shift(4);
+      }
+
+      @include grid-media($mobile-grid) {
+        @include grid-column(12);
+        @include grid-shift(0);
+      }
+    }
+
+    h2 {
+      font-size: 34px;
+      font-weight: 700;
+      margin-bottom: 35px;
+    }
+
+    p {
+      font-size: 24px;
+      font-weight: 100;
+      line-height: 38px;
+      max-width: 400px;
+      padding: 0 0 30px;
+      clear: both;
+    }
+  }
+}
+
