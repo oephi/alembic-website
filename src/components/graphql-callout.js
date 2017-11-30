@@ -4,7 +4,7 @@ export default props => (
   <div className="graphql-callout">
     <div className="wrap">
       <aside>
-        <h2>GraphQL for the web.</h2>
+        <h2>GraphQL for the Modern Web.</h2>
 
         <p>
           Consume data exposed by your backend with efficiency, simplicity and
@@ -13,13 +13,13 @@ export default props => (
 
         <p>
           With built-in, real-time subscriptions, this is the future of web
-          API's.
+          applications and the APIs that feed them their data.
         </p>
 
         <p>
-          Unify arbitrary or legacy API's behind a single GraphQL endpoint,
-          making your clients easy to write and the developers whom write them
-          very happy.
+          Unify arbitrary or legacy APIs behind a single GraphQL endpoint,
+          making your client applications easy to write and the developers
+          who write them unbelievably productive.
         </p>
       </aside>
     </div>

@@ -11,7 +11,7 @@ export default props => (
 
         <h2>
           We leverage modern tools and technologies to build reliable and robust
-          software... and we love it
+          software your users will love.
         </h2>
 
         <a href="#what-we-do" className="btn btn-primary btn-link">

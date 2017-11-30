@@ -8,8 +8,7 @@ export default props => (
 
         <p>
           Super scalable, highly concurrent, fault tolerant and functional
-          backend written in Elixir to handle your persistence and business
-          logic.
+          backend written in Elixir to handle your persistence and business logic.
         </p>
 
         <p>
