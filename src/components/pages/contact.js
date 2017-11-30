@@ -4,7 +4,7 @@ import ContactDetails from "../contact-details"
 
 export default ({ children }) => (
   <div className="contact">
-    <PrimaryHeader />
+    <PrimaryHeader internal />
     <ContactDetails />
   </div>
 )
