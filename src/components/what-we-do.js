@@ -1,7 +1,7 @@
 import React from "react"
 
 export default props => (
-  <div className="what-we-do wrap">
+  <div id="what-we-do" className="what-we-do wrap">
     <aside>
       <h2 className="line">
         <span>What we do.</span>

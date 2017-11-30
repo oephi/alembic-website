@@ -14,7 +14,7 @@ export default props => (
           software... and we love it
         </h2>
 
-        <a href="/more" className="btn btn-primary btn-link">
+        <a href="#what-we-do" className="btn btn-primary btn-link">
           Find out more!
         </a>
       </article>
