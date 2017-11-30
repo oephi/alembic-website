@@ -10,11 +10,9 @@
   }
 
   article {
-    @include grid-shift(1);
     max-width: 450px;
 
     @include grid-media($tablet-grid) {
-      @include grid-shift(0);
       max-width: none;
     }
 
