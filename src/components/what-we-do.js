@@ -33,7 +33,10 @@ export default props => (
 
         <li>
           <h3>We live in the Cloud.</h3>
-          <p>Some text about the cloud and elasticity</p>
+          <p>
+            We automate deployment to the cloud with zero-downtime.. so your app
+            won't miss a beat
+          </p>
         </li>
 
         <li>
