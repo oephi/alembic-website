@@ -1,19 +1,16 @@
 import React from "react"
 import Home from "./pages/home"
-import WhatWeDo from "./what-we-do"
-import HowWeDoIt from "./how-we-do-it"
-import ElixirCallout from "./elixir-callout"
-import GraphQLCallout from "./graphql-callout"
-import ReactCallout from "./react-callout"
+import Contact from "./pages/contact"
+
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 
 export default props => (
   <div className="alembic">
-    <Home>
-      <WhatWeDo />
-      <HowWeDoIt />
-      <ElixirCallout />
-      <GraphQLCallout />
-      <ReactCallout />
-    </Home>
+    <Router>
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/contact" component={Contact} />
+      </Switch>
+    </Router>
   </div>
 )

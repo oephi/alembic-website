@@ -1,6 +1,8 @@
 import React from "react"
 import logo from "../assets/images/alembic-logo.svg"
 
+import { Link } from "react-router-dom"
+
 export default props => (
   <div className="primary-header">
     <div className="wrap">
@@ -9,7 +11,7 @@ export default props => (
       <nav>
         <ul>
           <li>
-            <a href="/contact">Contact</a>
+            <Link to="/contact">Contact</Link>
           </li>
         </ul>
       </nav>
