@@ -1,6 +1,6 @@
 .hero {
   height: 700px;
-  background: url("assets/images/hero-bg.png") top center no-repeat;
+  background: url("assets/images/hero-bg.jpg") top center no-repeat;
 
   @include grid-media($mobile-grid) {
     height: auto;
