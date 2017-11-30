@@ -1,6 +1,11 @@
 .primary-header {
   padding: 30px 0;
   border-bottom: solid 1px rgba(255,255,255,0.10);
+  background: transparent url('assets/images/hero-bg.jpg') top center no-repeat;
+
+  &.internal {
+    background-size: 100%;
+  }
 
   img {
     float: left;
