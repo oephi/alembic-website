@@ -14,12 +14,12 @@ export default props => (
             <span role="img" aria-label="">
               ❤️
             </span>{" "}
-            Elixir, Ruby &amp; JavaScript
+            Elixir &amp; JavaScript
           </h3>
 
           <p>
-            Whether you need support for your Elixir, Ruby or Node
-            applications.. we've got you covered
+            Killer performance and reliability on the backend, delightful live
+            updates on the frontend.
           </p>
         </li>
 
