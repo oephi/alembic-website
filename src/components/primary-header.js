@@ -6,7 +6,9 @@ import { Link } from "react-router-dom"
 export default props => (
   <div className="primary-header">
     <div className="wrap">
-      <img src={logo} alt="Alembic Pty Ltd" width="162" height="24" />
+      <Link to="/">
+        <img src={logo} alt="Alembic Pty Ltd" width="162" height="24" />
+      </Link>
 
       <nav>
         <ul>
