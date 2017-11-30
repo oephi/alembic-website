@@ -1,0 +1,29 @@
+{
+  "name": "alembic",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.17"
+  },
+  "scripts": {
+    "build-css": "node-sass-chokidar src/ -o src --include-path ./node_modules/bourbon/app/assets/stylesheets --include-path ./node_modules/bourbon-neat/core",
+    "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive --include-path ./node_modules/bourbon/app/assets/stylesheets --include-path ./node_modules/bourbon-neat/core",
+    "start-js": "react-scripts start",
+    "start": "npm-run-all -p watch-css start-js",
+    "build": "npm run build-css && react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "bourbon": "^4.3.4",
+    "bourbon-neat": "^2.0.0",
+    "enzyme": "^3.2.0",
+    "enzyme-adapter-react-16": "^1.1.0",
+    "node-sass-chokidar": "^0.0.3",
+    "npm-run-all": "^4.1.2"
+  }
+}

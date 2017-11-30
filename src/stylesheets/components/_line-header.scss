@@ -1,0 +1,27 @@
+h2.line {
+  span {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    position: relative;
+    z-index: 101;
+    padding-right: 40px;
+    display: inline-block;
+    background: #fff;
+  }
+
+  &:after {
+    content: "";
+    right: 0;
+    top: 30px;
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background: $black;
+    z-index: 100;
+
+    @include grid-media($mobile-grid) {
+      display: none;
+    }
+  }
+}

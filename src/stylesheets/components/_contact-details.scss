@@ -1,0 +1,42 @@
+.contact-details {
+  padding: 115px 0;
+
+  @include grid-media($tablet-grid) {
+    padding: 80px 0;
+  }
+
+  @include grid-media($mobile-grid) {
+    padding: 40px 0;
+  }
+
+  article {
+    max-width: 450px;
+
+    @include grid-media($tablet-grid) {
+      max-width: none;
+    }
+
+    h1 {
+      font-family: $playfair;
+      font-weight: 700;
+      font-size: 52px;
+      margin-bottom: 15px;
+    }
+
+    h2 {
+      font-size: 20px;
+      font-weight: 100;
+      font-family: $font-stack;
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 18px;
+      font-weight: 100;
+
+      &.phone {
+        padding: 24px 0;
+      }
+    }
+  }
+}
