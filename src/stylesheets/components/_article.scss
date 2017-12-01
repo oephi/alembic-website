@@ -1,0 +1,31 @@
+article.article {
+  @include grid-column(10);
+  @include grid-shift(1);
+  padding: 80px 0;
+
+  @include grid-media($tablet-grid) {
+    @include grid-column(12);
+    @include grid-shift(0);
+    padding: 20px 0;
+  }
+
+  h1 {
+    font-size: 52px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    max-width: 80%;
+  }
+
+  h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 35px;
+    margin-bottom: 15px;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 28px;
+    padding: 10px 0;
+  }
+}
