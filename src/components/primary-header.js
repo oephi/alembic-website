@@ -20,6 +20,10 @@ export default ({ internal }) => {
         <nav>
           <ul>
             <li>
+              <Link to="/purpose">Purpose</Link>
+            </li>
+
+            <li>
               <Link to="/contact">Contact</Link>
             </li>
           </ul>
