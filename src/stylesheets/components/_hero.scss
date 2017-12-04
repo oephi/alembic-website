@@ -7,13 +7,14 @@
 
   &:after {
     content: "";
+    transform-origin: top left;
     transform: rotate(-6.5deg);
     position: absolute;
-    bottom: -10px;
     left: 0;
     margin: 0 -40px;
     width: 200%;
-    height: 200px;
+    height: 250px;
+    bottom: -250px;
     background: #fff;
 
     @include grid-media($mobile-grid) {
