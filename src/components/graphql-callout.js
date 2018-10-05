@@ -4,7 +4,7 @@ export default props => (
   <div className="graphql-callout">
     <div className="wrap">
       <aside>
-        <h2>GraphQL for the Modern Web.</h2>
+        <h2>GraphQL for the Modern Web</h2>
 
         <p>
           Consume data exposed by your backend with efficiency, simplicity and

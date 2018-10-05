@@ -4,7 +4,7 @@ export default props => (
   <div className="react-callout">
     <div className="wrap">
       <aside>
-        <h2>React on the Frontend.</h2>
+        <h2>React on the Frontend</h2>
 
         <p>
           Well-tested, real-time, client side rendered user interfaces that will

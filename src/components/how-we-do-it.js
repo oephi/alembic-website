@@ -9,7 +9,7 @@ export default props => (
   <div className="how-we-do-it wrap">
     <aside>
       <h2 className="line">
-        <span>How we do it.</span>
+        <span>How we do it</span>
       </h2>
 
       <img className="diagram" src={diagram} alt="" width="999" height="255" />
