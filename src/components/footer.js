@@ -7,6 +7,6 @@ export default props => (
       <img src={logo} alt="Alembic" width="150" />
     </p>
 
-    <p>Copyright 2017, Alembic Pty Ltd.</p>
+    <p>Copyright 2018, Alembic Pty Ltd.</p>
   </footer>
 )
