@@ -19,6 +19,10 @@ export default ({ internal }) => {
 
         <nav>
           <ul>
+          <li>
+            <Link to="/casestudy">Case Studies</Link>
+          </li>
+
             <li>
               <Link to="/careers">Careers</Link>
             </li>

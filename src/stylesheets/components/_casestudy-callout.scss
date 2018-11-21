@@ -1,0 +1,84 @@
+.casestudy {
+  padding: 0;
+
+  aside {
+    @include grid-column(10);
+    @include grid-shift(1);
+  }
+
+  .callout {
+    background-color:($alembic-blue);
+    padding-top:100px;
+
+    h2 {
+      @include grid-column(12);
+      font-weight: 700;
+      font-size: 42px;
+      margin-left: 0;
+      margin-bottom: 80px;
+
+      @include grid-media($mobile-grid) {
+        font-size: 36px;
+      }
+    }
+
+    ul {
+      @include grid-container();
+      @include grid-collapse();
+      list-style: none;
+
+      li {
+        @include grid-column(4);
+        width:calc(33.3333% - 20px);
+        margin: 0 10px 40px 10px;
+        padding-bottom: 40px;
+        background-color: #fff;
+        float:none;
+        display:inline-grid;
+        height:425px;
+
+        @include grid-media($tablet-grid) {
+          @include grid-column(5);
+          width:45%;
+          margin:0 10px 20px 10px;
+
+          &:nth-child(3n) {
+            clear: left;
+          }
+
+          &:last-child {
+            clear: none;
+          }
+        }
+
+        @include grid-media($mobile-grid) {
+          @include grid-column(12);
+          padding-right: 0;
+          clear: both;
+        }
+
+        &:nth-child(4n) {
+          clear: left;
+
+          @include grid-media($tablet-grid) {
+            clear: none;
+          }
+        }
+      }
+    }
+
+    h3 {
+      font-weight: 700;
+      font-size: 20px;
+      margin-bottom: 25px;
+      padding: 5px 10px 0 15px;
+    }
+
+    p {
+      font-size: 15px;
+      line-height: 24px;
+      color: $light-grey;
+      padding: 0 10px 0 15px;
+    }
+  }
+}

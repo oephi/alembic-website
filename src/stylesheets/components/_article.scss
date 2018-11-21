@@ -23,6 +23,13 @@ article.article {
     margin-bottom: 15px;
   }
 
+  h3 {
+    font-size: 36px;
+    font-weight: 500;
+    margin-top: 25px;
+    margin-bottom: 10px;
+  }
+
   p {
     font-size: 16px;
     line-height: 28px;
@@ -33,5 +40,11 @@ article.article {
   ul {
     padding: 10px 0;
     margin-left: 60px;
+    max-width:70%;
+  }
+
+  li {
+    line-height:24px;
+    padding-bottom:4px;
   }
 }
