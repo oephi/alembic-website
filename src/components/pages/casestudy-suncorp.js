@@ -16,13 +16,13 @@ export default props => (
           GraphQL API Strategy and Implementation
         </h2>
 
+        <h3>The challenge</h3>
+
         <img src={temp} alt=" " />
 
-
-        <h3>The challenge</h3>
         <p>A Brisbane-based Australian finance, insurance and banking corporation, one of Australia's largest banks and insurance groups, was developing a suite of domain and experience APIs as part of their marketplace strategy. As a large organisation with multiple subdivisions, the client wanted to enforce its many departments to more effectively collaborate and communicate on API strategy.</p>
-        <p>Their requirements were to ensure all APIs uniformly followed company standards, and for the API catalogue to be perpetually current, facilitating better coordination between API producers and consumers.</p>
         <p>Alembic was briefed to design and implement a centralised publishing hub that stored the latest version of internal APIs. This was to include documentation and health checks, ensure that all APIs conformed to JSON API standards and specific localised constraints, and list backwards compatibility breakages.</p>
+        <p>Their requirements were to ensure all APIs uniformly followed company standards, and for the API catalogue to be perpetually current, facilitating better coordination between API producers and consumers.</p>
 
         <h3>The solution</h3>
         <p>Timing and scale were two of the largest challenges, but in working the client Alembic quickly and effectively conducted extensive research within the organisation, including interviews with key stakeholders across all of the IT subdivisions.</p>

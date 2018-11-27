@@ -22,3 +22,6 @@ src/**/*.css
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+.vs/alembic-website/v15/.suo
+.vs/slnx.sqlite
+.vs/VSWorkspaceState.json
