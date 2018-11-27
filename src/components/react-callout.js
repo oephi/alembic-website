@@ -1,8 +1,14 @@
 import React from "react"
 
+import react from "../assets/images/react.svg"
+
 export default props => (
   <div className="react-callout">
     <div className="wrap">
+      <div className="diagram">
+        <img src={react} alt="React" width="140" height="215" />
+      </div>
+
       <aside>
         <h2>React on the Frontend</h2>
 

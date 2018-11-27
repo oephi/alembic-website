@@ -1,8 +1,15 @@
 import React from "react"
 
+import elixir from "../assets/images/elixir.svg"
+
 export default props => (
   <div className="elixir-callout">
     <div className="wrap">
+
+      <div className="diagram">
+        <img src={elixir} alt="Elixir" width="125" height="215" />
+      </div>
+
       <aside>
         <h2>Elixir on the Backend</h2>
 

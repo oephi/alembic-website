@@ -1,7 +1,7 @@
 .elixir-callout {
   max-width: 1440px;
   margin: 0 auto;
-  height: 895px;
+  height: 800px;
   overflow: hidden;
   padding-top: 110px;
   position: relative;
@@ -30,6 +30,8 @@
   }
 
   aside {
+    display: grid;
+
     h2, p {
       @include grid-column(11);
       @include grid-shift(1);
@@ -58,5 +60,32 @@
       clear: both;
     }
   }
-}
 
+  .diagram {
+    background-color:#fff;
+    padding:50px 0 50px 0;
+    border-radius: 25% 0 25% 0;
+    float:right;
+    margin-top:100px;
+    margin-right: 10%;
+    min-width:300px;
+    text-align:center;
+
+    @include grid-media($tablet-grid) {
+      float:right;
+      margin-top:125px;
+      margin-right: 25px;
+      padding:15px 0 20px 0;
+      min-width:175px;
+    }
+
+    @include grid-media($mobile-grid) {
+      display: none;
+    }
+
+    img {
+      display: block;
+      margin:0 auto;
+    }
+  }
+}

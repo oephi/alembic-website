@@ -1,7 +1,7 @@
 .react-callout {
   max-width: 1440px;
   margin: 0 auto;
-  height: 895px;
+  height: 800px;
   position: relative;
   overflow: hidden;
   padding-top: 200px;
@@ -30,6 +30,8 @@
   }
 
   aside {
+    display: grid;
+
     h2, p {
       @include grid-column(11);
       @include grid-shift(1);
@@ -56,6 +58,44 @@
       max-width: 400px;
       padding: 0 0 30px;
       clear: both;
+    }
+  }
+  .diagram:before {
+    content: ' ';
+    border-bottom: 34px solid #fff;
+    border-right: 300px solid $react-blue;
+    display:block;
+
+    @include grid-media($tablet-grid){
+      border-bottom: 20px solid #fff;
+      border-right: 175px solid $react-blue;
+    }
+
+  }
+  .diagram {
+    background-color:#fff;
+    padding:0 0 50px 0;
+    float:right;
+    margin-top:100px;
+    margin-right: 10%;
+    min-width:300px;
+    text-align:center;
+
+    @include grid-media($tablet-grid) {
+      float:right;
+      margin-top:75px;
+      margin-right: 25px;
+      padding:0 0 20px 0;
+      min-width:175px;
+    }
+
+    @include grid-media($mobile-grid) {
+      display: none;
+    }
+    img {
+      display: block;
+      margin:0 auto;
+      margin-top:25px;
     }
   }
 }

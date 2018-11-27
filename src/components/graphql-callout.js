@@ -1,8 +1,15 @@
 import React from "react"
 
+import graphql from "../assets/images/graphql.svg"
+
 export default props => (
   <div className="graphql-callout">
     <div className="wrap">
+
+    <div className="diagram">
+        <img src={graphql} alt="GraphQL" width="148" height="215" />
+      </div>
+
       <aside>
         <h2>GraphQL for the Modern Web</h2>
 
