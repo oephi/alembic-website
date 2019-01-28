@@ -16,6 +16,8 @@ export default props => (
           Elixir, React and GraphQL because we understand they can solve
           problems faster and more effectively for our clients, as well as
           providing a more enjoyable, productive environment to build software.
+        </p>
+        <p>
           We believe in building high quality, maintainable software with test
           driven development, code reviews and refactoring baked into the way we
           do things. For a consulting company you’ll be surprised at how remote
